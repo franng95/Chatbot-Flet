@@ -52,7 +52,7 @@ Built as a proof-of-concept for improving student access to academic information
 ### Install Dependencies
 ```bash
 # Clone the repository
-cd flet_chatbot
+cd Chatbot-Flet
 
 # Install required packages
 pip install flet
@@ -62,6 +62,8 @@ pip install flet
 ```bash
 python chatbot.py
 ```
+
+`chatbot.py` is the main documented version of the app. The repository also includes `main.py`, an alternative earlier UI implementation with similar sample data.
 
 A window will open with the chatbot interface ready to use.
 
@@ -133,7 +135,7 @@ Professor names and email addresses for each course.
 - `ft.ElevatedButton` for send action
 
 ### Natural Language Understanding
-- Keyword mapping (e.g., "eap" → "English for Academic Purposes")
+- Keyword mapping (e.g., "eap" -> "English for Academic Purposes")
 - Case-insensitive query handling
 - Multiple keyword variations support
 
@@ -143,18 +145,20 @@ Professor names and email addresses for each course.
 - Clean, distraction-free interface
 
 ## Project Structure
-```
-flet_chatbot/
-├── chatbot.py          # Main application with UI and logic
+```text
+Chatbot-Flet/
+├── chatbot.py          # Main documented application with UI and query logic
 ├── data.py             # Static data (schedules, deadlines, contacts)
 ├── dicts.py            # Alternative data structure
-├── main.py             # Alternative UI implementation
+├── main.py             # Alternative earlier UI implementation
+├── test_pytorch.py     # Experimental/test file
+├── image.png           # Project image asset
 ├── screenshots/        # Application screenshots
 │   ├── chatbot-welcome.png
 │   ├── chatbot-schedule.png
 │   ├── chatbot-deadlines.png
 │   └── chatbot-contact.png
-└── README.md          # This file
+└── README.md           # This file
 ```
 
 ## What I Learned
