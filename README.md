@@ -230,7 +230,6 @@ Academic project for educational purposes.
 ## Contact
 
 **Francisco Navarro**  
-Email: frannavarrogil@gmail.com  
 GitHub: [@franng95](https://github.com/franng95)  
 LinkedIn: [franjng](https://linkedin.com/in/franjng)
 
